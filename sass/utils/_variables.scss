@@ -17,15 +17,3 @@
 	--primary-animation-time: 250ms;
 	--primary-animation-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-body {
-	font-family: 'Roboto',
-		sans-serif;
-	font-size: 14px;
-	line-height: 1.7;
-	font-weight: 400;
-	letter-spacing: 0.03em;
-
-	background-color: var(--primary-background-colorr);
-	color: var(--primary-text-color);
-}

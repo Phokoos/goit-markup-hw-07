@@ -3,15 +3,11 @@
 Стилі для наших переваг
 ==============
 */
-.advantages {}
-
-.advantages-title {}
 
 .advantages-list {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
-
 }
 
 .advantages-item {
@@ -41,5 +37,3 @@
 
 	color: var(--title-text-color);
 }
-
-.advantages-item-text {}

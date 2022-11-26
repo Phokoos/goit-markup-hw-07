@@ -35,15 +35,6 @@ Socials for footer
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-.social-list-item {}
-
-.social-link {}
-
-.social-icon {}
-
-.icon-instagram {}
-
 // Socials for team
 
 .social-list-links {
@@ -59,16 +50,6 @@ Socials for footer
 	align-items: center;
 }
 
-.social-link:focus-visible {
-	outline: none;
-}
-
-.social-link:hover,
-.social-link:focus {
-	background-color: var(--accent-color);
-	color: var(--primary-white-color);
-}
-
 .social-link {
 	display: flex;
 	justify-content: center;
@@ -82,6 +63,16 @@ Socials for footer
 	transition-property: color, background-color;
 	transition-duration: var(--primary-animation-time);
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:focus-visible {
+		outline: none;
+	}
+
+	&:hover,
+	&:focus {
+		background-color: var(--accent-color);
+		color: var(--primary-white-color);
+	}
 }
 
 .social-icon {

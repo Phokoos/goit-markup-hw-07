@@ -1,5 +1,3 @@
-.address {}
-
 .address-list {
 	margin-top: 20px;
 
@@ -11,9 +9,7 @@
 	margin-bottom: 10px;
 }
 
-.address-item-map>a {
-
-
+.address-item-link{
 	color: var(--primary-white-color);
 	text-decoration: none;
 }
@@ -22,5 +18,3 @@
 .address-item-mail {
 	color: rgba(255, 255, 255, 0.6);
 }
-
-.address-item-phone {}
