@@ -1,0 +1,19 @@
+/* 
+===================
+Підвал
+===================
+ */
+
+.footer {
+	background-color: var(--accent-background-color);
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.footer-container {
+	display: flex;
+}
+
+.footer .logo {
+	color: var(--primary-white-color);
+}

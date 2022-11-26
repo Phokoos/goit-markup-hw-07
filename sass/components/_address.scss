@@ -1,0 +1,26 @@
+.address {}
+
+.address-list {
+	margin-top: 20px;
+
+	list-style: none;
+	font-style: normal;
+}
+
+.address-item:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.address-item-map>a {
+
+
+	color: var(--primary-white-color);
+	text-decoration: none;
+}
+
+.address-item-phone,
+.address-item-mail {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.address-item-phone {}
